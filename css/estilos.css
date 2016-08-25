@@ -1,0 +1,42 @@
+*{
+	padding: :0px;
+	margin: 0px;
+}
+
+/* #0040FF */
+
+header{
+	width: 100%;
+	background:#2E9AFE;
+	height: 54px;
+	border-top: 4px solid #0040FF;
+	border-bottom: 4px solid #0040FF;
+}
+
+header #logo h2{
+	font-family:Verdana;
+	font-size: 20px;
+	color: azure;
+	margin: 10px 0px 0px 10px;
+}
+
+header #menu{
+	width: 500px;
+	margin:-20px auto;
+
+}
+
+header #menu ul a{
+	text-decoration: none;
+	color: aliceblue;
+	font-family:Verdana;
+	font-size: 18px;
+	padding: 16px;
+}
+
+header #menu ul a:hover{
+	background: #0B2161;
+	box-shadow: 2px 2px 2px #0040FF;
+	border: 2px solid #0040FF;
+
+}
