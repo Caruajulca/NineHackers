@@ -3,10 +3,13 @@
 		height: 100%;
 		position: fixed;
 		background: #0040FF;
-		top: 0;
-		left: 0;
+		top: 20px;
+		left: -40px;
 		width: 300px;
 		margin: 0px auto;
+	}
+	header #menu ul a{
+		display: block;
 	}
 
 }
