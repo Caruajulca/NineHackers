@@ -19,18 +19,23 @@ header #logo h2{
 	color: azure;
 	margin: 10px 0px 0px 10px;
 }
-header #logo spam{
+header #logo span{
 	float: right;
 	margin: -28px 10px 0px 0px;
 	color: white;
 	font-size: 40px;
 	cursor: pointer;
+	display: none;
+
 
 }
 header #menu{
 	width: 400px;
 	margin:-16px auto;
 
+}
+header #menu nav{
+	height: 45px;
 }
 
 header #menu ul a{
